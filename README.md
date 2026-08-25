@@ -47,7 +47,7 @@ This project covers the full data science workflow:
 
 
 
-![Modeling pipeline](workspace/recipe_traffic_ml_pipeline.png "Modeling pipeline")
+![Modeling pipeline](figures/recipe_traffic_ml_pipeline.png "Modeling pipeline")
 
 Two models were compared:
 
