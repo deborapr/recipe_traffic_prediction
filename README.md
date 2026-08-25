@@ -41,20 +41,22 @@ This project covers the full data science workflow:
 
 ## Modeling
 
-<!-- \<p align="center">
-    <img src="workspace/recipe_traffic_ml_pipeline.png" alt="Modeling pipeline" width="300"> 
-</p> -->
+<p align="center">
+    <img src="figures/recipe_traffic_ml_pipeline.png" alt="Modeling pipeline" width="600"> 
+</p> 
 
 
 
-![Modeling pipeline](figures/recipe_traffic_ml_pipeline.png "Modeling pipeline")
+<!-- ![Modeling pipeline](figures/recipe_traffic_ml_pipeline.png "Modeling pipeline")-->
 
 Two models were compared:
 
+    
 | Model                        | Accuracy | Precision | Recall |
 | ---------------------------- | -------- | --------- | ------ |
 | Logistic Regression (scaled) | 77.9%    | 84.8%     | 77.4%  |
 | Decision Tree (max_depth=4)  | 78.4%    | 84.9%     | 78.3%  |
+
 
 **Logistic Regression was selected as the final model**, given near-identical performance, its simplicity and interpretability make it the preferable choice for a business context.
 
@@ -81,10 +83,11 @@ The final model achieves **85% precision**, exceeding the 80% business target. W
 ## Project Structure
 
 ```
-├── notebook.ipynb             # Full analysis notebook
-├── recipe_site_traffic.csv    # Dataset
-├── requirements.txt           # Project dependencies
-├── presentation.pdf           # Business presentation slides
+├── recipe_traffic_prediction.ipynb    # Full analysis notebook
+├── recipe_site_traffic.csv            # Dataset
+├── requirements.txt                   # Project dependencies
+├── presentation.pdf                   # Business presentation slides
+├── figures/
 └── README.md
 ```
 
